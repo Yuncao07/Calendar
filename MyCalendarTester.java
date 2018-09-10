@@ -146,7 +146,7 @@ public class MyCalendarTester {
 
 		String opt = "";
 		tester.printMonth(LocalDate.now());
-	
+
 		while (!opt.equals("Q")) {
 			System.out.print(MAIN_MENU);
 			opt = keyin.nextLine().toUpperCase();

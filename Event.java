@@ -23,7 +23,7 @@ public class Event {
 		this.name = name;
 		this.t_interval = t_interval;
 		date = null;
-		
+
 		this.days = days.stream().map(day -> {
 			if (day.equals("S")) {
 				return DayOfWeek.SUNDAY;
